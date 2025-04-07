@@ -4,7 +4,7 @@ services:
       context: .
       dockerfile: docker/php/Dockerfile
     volumes:
-      - ./:/var/www/html
+      - .:/var/www/html
     container_name: php
 
   caddy:
@@ -13,7 +13,7 @@ services:
       - "8443:8443"
     volumes:
       - ./docker/caddy/Caddyfile:/etc/caddy/Caddyfile
-      - ./:/var/www/html
+      - .:/var/www/html
     depends_on:
       - php
     container_name: caddy
