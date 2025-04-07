@@ -1,0 +1,19 @@
+services:
+  php:
+    build:
+      context: .
+      dockerfile: docker/php/Dockerfile
+    volumes:
+      - ./:/var/www/html
+    container_name: php
+
+  caddy:
+    image: caddy:2
+    ports:
+      - "8443:8443"
+    volumes:
+      - ./docker/caddy/Caddyfile:/etc/caddy/Caddyfile
+      - ./:/var/www/html
+    depends_on:
+      - php
+    container_name: caddy

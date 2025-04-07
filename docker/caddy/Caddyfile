@@ -1,0 +1,9 @@
+:8443
+
+root * /var/www/html
+
+php_fastcgi php:9000
+
+file_server
+
+try_files {path} /index.php
