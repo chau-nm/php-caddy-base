@@ -1,3 +1,4 @@
 ###> jetbrain ide ###
 .idea
 ### jetbrain ide <###
+/vendor/

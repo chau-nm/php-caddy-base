@@ -1,0 +1,12 @@
+{
+    "name": "chau-nm/php-caddy-base",
+    "require": {
+        "php": ">=8.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chau-nm"
+        }
+    ]
+}
