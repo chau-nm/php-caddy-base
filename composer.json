@@ -8,5 +8,8 @@
         {
             "name": "chau-nm"
         }
-    ]
+    ],
+    "scripts": {
+        "say" : "php ./src/command/greeting.php"
+    }
 }
