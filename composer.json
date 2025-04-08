@@ -11,5 +11,16 @@
     ],
     "scripts": {
         "say" : "php ./src/command/greeting.php"
-    }
+    },
+    "require-dev": {
+        "fakerphp/faker": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "bin": [
+        "bin/greeting"
+    ]
 }
