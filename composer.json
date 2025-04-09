@@ -1,8 +1,10 @@
 {
     "name": "chau-nm/php-caddy-base",
     "require": {
-        "php": ">=8.2"
+        "php": ">=8.2",
+        "chau-nm/php-hello-package": "^0.0.1"
     },
+    "description": "",
     "license": "MIT",
     "authors": [
         {

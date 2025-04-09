@@ -4,8 +4,48 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1b50f51d9803b636a3823cbf3b04a004",
-    "packages": [],
+    "content-hash": "239bb91f0c190f143df993470dd7d2a5",
+    "packages": [
+        {
+            "name": "chau-nm/php-hello-package",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chau-nm/php-hello-package.git",
+                "reference": "e5055a8b07361128344e6773297cfd0cde533d21"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chau-nm/php-hello-package/zipball/e5055a8b07361128344e6773297cfd0cde533d21",
+                "reference": "e5055a8b07361128344e6773297cfd0cde533d21",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ChauNm\\PhpHelloPackage\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "chau-nm",
+                    "email": "chaunm.146.2001@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/chau-nm/php-hello-package/issues",
+                "source": "https://github.com/chau-nm/php-hello-package/tree/0.0.1"
+            },
+            "time": "2025-04-09T14:41:51+00:00"
+        }
+    ],
     "packages-dev": [
         {
             "name": "fakerphp/faker",
