@@ -4,31 +4,26 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "239bb91f0c190f143df993470dd7d2a5",
+    "content-hash": "f4ebcc19b337c0285face36280603a8d",
     "packages": [
         {
             "name": "chau-nm/php-hello-package",
-            "version": "0.0.1",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/chau-nm/php-hello-package.git",
-                "reference": "e5055a8b07361128344e6773297cfd0cde533d21"
+                "reference": "b13bda9b8a82c8c0bb0ca076670c846887ff05a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chau-nm/php-hello-package/zipball/e5055a8b07361128344e6773297cfd0cde533d21",
-                "reference": "e5055a8b07361128344e6773297cfd0cde533d21",
+                "url": "https://api.github.com/repos/chau-nm/php-hello-package/zipball/b13bda9b8a82c8c0bb0ca076670c846887ff05a1",
+                "reference": "b13bda9b8a82c8c0bb0ca076670c846887ff05a1",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.2"
             },
             "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "ChauNm\\PhpHelloPackage\\": "src/"
-                }
-            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -41,9 +36,9 @@
             ],
             "support": {
                 "issues": "https://github.com/chau-nm/php-hello-package/issues",
-                "source": "https://github.com/chau-nm/php-hello-package/tree/0.0.1"
+                "source": "https://github.com/chau-nm/php-hello-package/tree/0.1.1"
             },
-            "time": "2025-04-09T14:41:51+00:00"
+            "time": "2025-04-09T15:01:40+00:00"
         }
     ],
     "packages-dev": [
